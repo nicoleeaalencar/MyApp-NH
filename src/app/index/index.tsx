@@ -36,6 +36,8 @@ const MenuScreen = () => {
                     <View style={styles.header}>
                         <Image source={require("../assets/images/nori-house.jpg")} style={styles.headerImage} />
                         <Text style={styles.restaurantName}>Nori House</Text>
+                        <Text style={styles.restaurantDescri}>O melhor da Ásia na sua casa!</Text>
+                        <Text style={styles.restaurantOpcao}>Combos Bebidas  Promoção</Text>
                     </View>
                 )}
                 renderItem={({ item }) => (

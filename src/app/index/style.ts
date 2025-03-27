@@ -22,6 +22,19 @@ export const styles = StyleSheet.create({
         color: "#333",
         textAlign: "center",
     },
+
+    restaurantOpcao: {
+        fontSize: 20,
+        marginTop: 10,
+        color: "#333",
+    },
+
+    restaurantDescri: {
+        fontSize: 15,
+        marginTop: 10,
+        color: "#333",
+    },
+
     menuItem: {
         flexDirection: "row",
         backgroundColor: "#f8f8f8",
