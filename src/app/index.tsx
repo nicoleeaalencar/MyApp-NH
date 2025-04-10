@@ -1,6 +1,6 @@
 import React from 'react';
 import { View, Text, Image, FlatList } from 'react-native';
-import { styles } from './style';
+import { styles } from './produto/style';
 
 const menuItems = [
     {
