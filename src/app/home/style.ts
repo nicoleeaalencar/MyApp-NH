@@ -1,86 +1,129 @@
 import { StyleSheet } from 'react-native';
 
 export const styles = StyleSheet.create({
-    container: {
-        flex: 1,
-        backgroundColor: "#fff",
-        padding: 10,
-    },
-    header: {
-        alignItems: "center",
-        marginBottom: 20,
-    },
-    headerImage: {
-        width: "100%",
-        height: 180,
-        borderRadius: 10,
-    },
-    restaurantName: {
-        fontSize: 26,
-        fontWeight: "bold",
-        marginTop: 10,
-        color: "#333",
-        textAlign: "center",
-    },
+  container: {
+    flex: 1,
+    backgroundColor: "#fff",
+    padding: 10,
+  },
 
-    restaurantOpcao: {
-        fontSize: 20,
-        marginTop: 10,
-        color: "#333",
-    },
+  header: {
+    alignItems: "center",
+    marginBottom: 20,
+  },
 
-    restaurantDescri: {
-        fontSize: 15,
-        marginTop: 10,
-        color: "#333",
-    },
+ 
+  logoRow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'center',
+    gap: 10,
+  },
 
-    menuItem: {
-        flexDirection: "row",
-        backgroundColor: "#f8f8f8",
-        padding: 10,
-        marginBottom: 10,
-        borderRadius: 10,
-        alignItems: "center",
-        shadowColor: "#000",
-        shadowOffset: { width: 0, height: 2 },
-        shadowOpacity: 0.1,
-        shadowRadius: 3,
-        elevation: 3,
-    },
-    menuImage: {
-        width: 80,
-        height: 80,
-        borderRadius: 10,
-        marginRight: 10,
-    },
-    menuText: {
-        flex: 1,
-    },
-    menuTitle: {
-        fontSize: 18,
-        fontWeight: "bold",
-        color: "#222",
-    },
-    menuDescription: {
-        fontSize: 14,
-        color: "#666",
-        marginVertical: 4,
-    },
-    menuPrice: {
-        fontSize: 16,
-        fontWeight: "bold",
-        color: "#e63946",
-    },
-    footer: {
-        backgroundColor: "#333",
-        padding: 10,
-        marginTop: 20,
-        alignItems: "center",
-    },
-    footerText: {
-        color: "#fff",
-        fontSize: 14,
-        marginVertical: 2,
-    },
+  logoImage: {
+    width: 100,
+    height: 100,
+    resizeMode: 'contain',
+  },
+
+  textContainer: {
+    flexShrink: 1,
+  },
+
+  restaurantName: {
+    fontSize: 19,
+    fontWeight: "bold",
+    color: "#000",
+    marginTop: 0,
+  },
+
+  restaurantJp: {
+    fontSize: 16,
+    color: "#555",
+  },
+
+
+  categoryContainer: {
+    flexDirection: 'row',
+    justifyContent: 'center',
+    marginVertical: 10,
+    flexWrap: 'wrap',
+    gap: 10,
+  },
+
+  categoryButton: {
+    paddingHorizontal: 12,
+    paddingVertical: 6,
+    borderRadius: 20,
+    backgroundColor: '#f0f0f0',
+    marginHorizontal: 5,
+  },
+
+  categoryButtonActive: {
+    backgroundColor: '#800000',
+  },
+
+  categoryText: {
+    color: '#333',
+    fontSize: 14,
+  },
+
+  categoryTextActive: {
+    color: '#fff',
+    fontWeight: 'bold',
+  },
+
+
+  menuItem: {
+    flexDirection: "row",
+    backgroundColor: "#f1f1f1",
+    padding: 10,
+    marginBottom: 10,
+    borderRadius: 15,
+    alignItems: "center",
+  },
+
+  menuImage: {
+    width: 80,
+    height: 80,
+    borderRadius: 10,
+    marginRight: 10,
+  },
+
+  menuText: {
+    flex: 1,
+  },
+
+  menuTitle: {
+    fontSize: 16,
+    fontWeight: "bold",
+    color: "#800000",
+  },
+
+  menuDescription: {
+    fontSize: 14,
+    color: "#444",
+    marginVertical: 4,
+  },
+
+  menuPrice: {
+    fontSize: 16,
+    fontWeight: "bold",
+    color: "#800000",
+  },
+
+
+  footer: {
+    backgroundColor: "#800000",
+    padding: 10,
+    alignItems: "center",
+    position: 'absolute',
+    bottom: 0,
+    width: '100%',
+  },
+
+  footerText: {
+    color: "#fff",
+    fontSize: 13,
+  },
 });
